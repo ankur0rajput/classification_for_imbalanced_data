@@ -9,8 +9,11 @@ The methods to solve this problem are widely known as ‘Sampling Methods’. Ge
 Below are the methods used to treat imbalanced datasets:
 
 1.Undersampling
+
 2.Oversampling
+
 3.Synthetic Data Generation
+
 4.Cost Sensitive Learning
 
 1.Undersampling:This method works with majority class. It reduces the number of observations from majority class to make the data set balanced. This method is best to use when the data set is huge and reducing the number of training samples helps to improve run time and storage troubles.
