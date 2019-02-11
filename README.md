@@ -13,9 +13,9 @@ Below are the methods used to treat imbalanced datasets:
 3.Synthetic Data Generation
 4.Cost Sensitive Learning
 
-1. Undersampling:This method works with majority class. It reduces the number of observations from majority class to make the data set balanced. This method is best to use when the data set is huge and reducing the number of training samples helps to improve run time and storage troubles.
+1.Undersampling:This method works with majority class. It reduces the number of observations from majority class to make the data set balanced. This method is best to use when the data set is huge and reducing the number of training samples helps to improve run time and storage troubles.
 
-2. Oversampling:This method works with minority class. It replicates the observations from minority class to balance the data. It is also known as upsampling.
+2.Oversampling:This method works with minority class. It replicates the observations from minority class to balance the data. It is also known as upsampling.
 
 3.Synthetic Data Generation:In simple words, instead of replicating and adding the observations from the minority class, it overcome imbalances by generates artificial data.In regards to synthetic data generation, synthetic minority oversampling technique (SMOTE) is a powerful and widely used method.
 
