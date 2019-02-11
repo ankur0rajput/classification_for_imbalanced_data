@@ -4,3 +4,4 @@ Imbalanced Classification:Imbalanced classification is a supervised learning pro
 
 ML algorithms tend to tremble when faced with imbalanced classification data sets. Moreover, they result in biased predictions and misleading accuracies.With imbalanced data sets, an algorithm doesn’t get the necessary information about the minority class to make an accurate prediction.
 
+The methods to solve this problem are widely known as ‘Sampling Methods’. Generally, these methods aim to modify an imbalanced data into balanced distribution using some mechanism. The modification occurs by altering the size of original data set and provide the same proportion of balance.
