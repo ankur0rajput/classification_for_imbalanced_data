@@ -110,6 +110,7 @@ pd.crosstab(train2["wage_per_hour"],train2["income_level"],margins=True).apply(p
   
 t=pd.crosstab(index=train2["wage_per_hour"],columns="count")#.apply(percConvert,axis=1)
 t/t.sum()
+
  
   
   
