@@ -56,12 +56,12 @@ Below are the methods used to treat imbalanced datasets:
 
 2.Oversampling:This method works with minority class. It replicates the observations from minority class to balance the data. It is also known as upsampling.
 
-Final Conclusion of the project
+Final Conclusion of the project:
 
-Making predictions on this data should atleast give us ~94% accuracy. However, while working on imbalanced problems, accuracy is considered to be a poor evaluation metrics because:
+    1.Making predictions on this data should atleast give us ~94% accuracy. However, while working on imbalanced problems, accuracy is         considered to be a poor evaluation metrics because:
 
-1.Accuracy is calculated by ratio of correct classifications / incorrect classifications.
+    2.Accuracy is calculated by ratio of correct classifications / incorrect classifications.
 
-2.This metric would largely tell us how accurate our predictions are on the majority class (since it comprises 94% of values). But, we need to know if we are predicting minority class correctly. We’re doomed here.
+    3.This metric would largely tell us how accurate our predictions are on the majority class (since it comprises 94% of values). But,     we need to know if we are predicting minority class correctly. We’re doomed here.
 
-3.In the end the we will select that algorithm that will give higher accuracy_score as well as higher recall_score
+    4.In the end the we will select that algorithm that will give higher accuracy_score as well as higher recall_score
