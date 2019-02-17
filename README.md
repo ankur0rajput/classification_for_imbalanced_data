@@ -10,47 +10,47 @@ Below are the methods used to treat imbalanced datasets:
 
 1.Undersampling:
 
-  -Random majority under-sampling with replacement
+    -Random majority under-sampling with replacement
   
-  -Extraction of majority-minority Tomek links 
+    -Extraction of majority-minority Tomek links 
   
-  -Under-sampling with Cluster Centroids
+    -Under-sampling with Cluster Centroids
   
-  -NearMiss-(1 & 2 & 3) 
+    -NearMiss-(1 & 2 & 3) 
   
-  -Condensed Nearest Neighbour
+    -Condensed Nearest Neighbour
   
-  -One-Sided Selection 
+    -One-Sided Selection 
   
-  -Neighboorhood Cleaning Rule
+    -Neighboorhood Cleaning Rule
   
-  -Edited Nearest Neighbours
+    -Edited Nearest Neighbours
   
-  -Instance Hardness Threshold
+    -Instance Hardness Threshold
   
-  -Repeated Edited Nearest Neighbours
+    -Repeated Edited Nearest Neighbours
   
-  -AllKNN
+    -AllKNN
 
 2.Oversampling:
 
-  -Random minority over-sampling with replacement
-  
-  -SMOTE - Synthetic Minority Over-sampling Technique
-  
-  -bSMOTE(1 & 2) - Borderline SMOTE of types 1 and 2
-  
-  -SVM SMOTE - Support Vectors SMOTE
-  
-  -ADASYN - Adaptive synthetic sampling approach for imbalanced learning 
+    -Random minority over-sampling with replacement
+
+    -SMOTE - Synthetic Minority Over-sampling Technique
+
+    -bSMOTE(1 & 2) - Borderline SMOTE of types 1 and 2
+
+    -SVM SMOTE - Support Vectors SMOTE
+
+    -ADASYN - Adaptive synthetic sampling approach for imbalanced learning 
 
 3.Oversampling followed by Undersampling:
 
-  -Over-sampling followed by under-sampling
-  
-  -SMOTE + Tomek links
-  
-  -SMOTE + ENN
+    -Over-sampling followed by under-sampling
+
+    -SMOTE + Tomek links
+
+    -SMOTE + ENN
 
 1.Undersampling:This method works with majority class. It reduces the number of observations from majority class to make the data set balanced. This method is best to use when the data set is huge and reducing the number of training samples helps to improve run time and storage troubles.
 
