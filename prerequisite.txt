@@ -1,0 +1,3 @@
+1.Download the dataset
+train:https://www.analyticsvidhya.com/wp-content/uploads/2016/09/train.zip
+test:https://www.analyticsvidhya.com/wp-content/uploads/2016/09/test.zip
