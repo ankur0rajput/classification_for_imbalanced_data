@@ -1,3 +1,16 @@
 1.Download the dataset
 train:https://www.analyticsvidhya.com/wp-content/uploads/2016/09/train.zip
 test:https://www.analyticsvidhya.com/wp-content/uploads/2016/09/test.zip
+
+2.For better understanding please go through the doccumentation once
+Undersampling:https://imbalanced-learn.readthedocs.io/en/stable/under_sampling.html
+Oversampling:https://imbalanced-learn.readthedocs.io/en/stable/over_sampling.html 
+
+3.Updated version of Anaconda
+
+4.Python Language
+
+4.Updated version of scikit-Learn
+
+5.Machine Learning basics
+
