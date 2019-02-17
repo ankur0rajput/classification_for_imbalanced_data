@@ -1,0 +1,66 @@
+                  classifier_1=RandomForestClassifier
+......................1.Imbalance report...............
+{'accuracy_score': 0.9455403861189632,
+ 'confusion_metric': array([[92139,  1437],
+        		   [ 3996,  2190]], dtype=int64),
+ 'recall_score': 0.35402521823472355}
+
+......................2.Over-sampling..................
+1.Random Oversampling:
+
+{'accuracy_score': 0.9264248912411539,
+ 'confusion_metric': array([[89439,  4137],
+        	            [ 3203,  2983]], dtype=int64),
+ 'recall_score': 0.48221791141286774}
+
+2:SMOTE:
+
+{'accuracy_score': 0.9200497183296245,
+ 'confusion_metric': array([[88430,  5146],
+        	   	    [ 2830,  3356]], dtype=int64),
+ 'recall_score': 0.5425153572583252}
+
+3.ADASYN:
+ 
+{'accuracy_score': 0.9148874320883703,
+ 'confusion_metric': array([[87873,  5703],
+        		    [ 2788,  3398]], dtype=int64),
+ 'recall_score': 0.5493048819915939}
+
+4.BorderlineSMOTE:
+
+{'accuracy_score': 0.924931336581063,
+ 'confusion_metric': array([[89137,  4439],
+        		    [ 3050,  3136]], dtype=int64),
+ 'recall_score': 0.5069511800840608}
+
+.........................3.Under-sampling................
+1.Random Undersampling:
+
+{'accuracy_score': 0.8299953890258815,
+ 'confusion_metric': array([[77359, 16217],
+        		    [  743,  5443]], dtype=int64),
+ 'recall_score': 0.8798900743614614}
+
+2.NearMiss:
+
+{'accuracy_score': 0.35239870892724684,
+ 'confusion_metric': array([[29441, 64135],
+        		    [  471,  5715]], dtype=int64),
+ 'recall_score': 0.9238603297769156}
+
+3.TomekLinks:
+
+{'accuracy_score': 0.9453098374130431,
+ 'confusion_metric': array([[91934,  1642],
+        		    [ 3814,  2372]], dtype=int64),
+ 'recall_score': 0.3834464920788878}
+
+4.EditedNearestNeighbours:
+
+{'accuracy_score': 0.928148994607165,
+ 'confusion_metric': array([[89052,  4524],
+        		    [ 2644,  3542]], dtype=int64),
+ 'recall_score': 0.5725832525056579}
+
+5.
