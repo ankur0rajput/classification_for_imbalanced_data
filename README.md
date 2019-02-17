@@ -58,10 +58,10 @@ Below are the methods used to treat imbalanced datasets:
 
 Final Conclusion of the project:
 
-    1.Making predictions on this data should atleast give us ~94% accuracy. However, while working on imbalanced problems, accuracy is         considered to be a poor evaluation metrics because:
+    1.Making predictions on this data should atleast give us ~94% accuracy. However, while working on imbalanced problems, accuracy is   considered to be a poor evaluation metrics because:
 
     2.Accuracy is calculated by ratio of correct classifications / incorrect classifications.
 
-    3.This metric would largely tell us how accurate our predictions are on the majority class (since it comprises 94% of values). But,     we need to know if we are predicting minority class correctly. We’re doomed here.
+    3.This metric would largely tell us how accurate our predictions are on the majority class (since it comprises 94% of values). But, we need to know if we are predicting minority class correctly. We’re doomed here.
 
     4.In the end the we will select that algorithm that will give higher accuracy_score as well as higher recall_score
